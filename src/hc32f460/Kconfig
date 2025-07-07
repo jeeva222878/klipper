@@ -3,7 +3,7 @@
 if MACH_HC32F460
 
 config HC32F460_SELECT
-    bool
+    
     default y
     select HAVE_GPIO
     select HAVE_GPIO_ADC
